@@ -7323,18 +7323,62 @@ body {
 /* line 77, ../sass/style.scss */
 .calc {
   background-color: #fff;
-  padding: 20px 50px; }
+  padding: 20px 50px 40px 50px; }
 
 /* line 84, ../sass/style.scss */
+.st-zak {
+  text-align: center; }
+  /* line 86, ../sass/style.scss */
+  .st-zak_h3 {
+    font-size: 16px; }
+  /* line 89, ../sass/style.scss */
+  .st-zak_cena {
+    font-size: 18px;
+    font-weight: 700; }
+
+/* line 94, ../sass/style.scss */
+.vsego {
+  text-align: center; }
+  /* line 96, ../sass/style.scss */
+  .vsego_h3 {
+    font-size: 22px; }
+  /* line 99, ../sass/style.scss */
+  .vsego .price {
+    font-size: 38px;
+    font-weight: 700;
+    color: #006CB5; }
+
+/* line 106, ../sass/style.scss */
 .chekout {
-  padding: 30px;
+  padding: 20px;
   text-align: center;
   background-color: #FFD046;
   color: #fff;
   text-transform: uppercase; }
-  /* line 91, ../sass/style.scss */
+  /* line 113, ../sass/style.scss */
   .chekout .h2 {
     line-height: 40px; }
-    /* line 93, ../sass/style.scss */
+    /* line 115, ../sass/style.scss */
     .chekout .h2 span {
       color: #FEA900; }
+
+/* line 121, ../sass/style.scss */
+.block {
+  padding: 40px 60px; }
+  /* line 123, ../sass/style.scss */
+  .block p {
+    font-weight: 300;
+    padding-top: 30px;
+    font-size: 16px; }
+
+/* line 129, ../sass/style.scss */
+.sposob1 {
+  background-color: #F8F8F8; }
+
+/* line 132, ../sass/style.scss */
+.sposob2 {
+  background-color: #F4F5F4; }
+
+/* line 135, ../sass/style.scss */
+.sposob3 {
+  background-color: #fff; }

@@ -76,13 +76,35 @@ body {
 }
 .calc {
 	background-color: #fff;
-	padding: 20px 50px;
+	padding: 20px 50px 40px 50px;
 	.h2 {
 		//text-transform: uppercase;
 	}
 }
+.st-zak {
+	text-align: center;
+	&_h3 {
+		font-size: 16px;
+	}
+	&_cena {
+		font-size: 18px;
+		font-weight: 700;
+	}
+}
+.vsego {
+	text-align: center;
+	&_h3 {
+		font-size: 22px;
+	}
+	.price {
+		font-size: 38px;
+		font-weight: 700;
+		color: #006CB5;
+	}
+
+}
 .chekout {
-	padding: 30px;
+	padding: 20px;
 	text-align: center;
 	background-color: #FFD046;
 	color: #fff;
@@ -95,6 +117,23 @@ body {
 
 		}
 	}
+}
+.block {
+	padding: 40px 60px;
+	p {
+		font-weight: 300;
+		padding-top: 30px;
+		font-size: 16px;
+	}
+}
+.sposob1 {
+	background-color: #F8F8F8;	
+}
+.sposob2 {
+	background-color: #F4F5F4;	
+}
+.sposob3 {
+	background-color: #fff;	
 }
 // b {
 // 		font-weight:700;
