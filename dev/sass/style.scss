@@ -1,7 +1,15 @@
 @import "variables";
+@import "mixins";
 @import "bootstrap";
 @import "../libs/font-awesome/css/font-awesome.min.css";
 
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight:400;
+}
+b {
+		font-weight:700;
+	}
 
 .hero-image {
 	width: 100%;
@@ -11,4 +19,45 @@
 }
 .navbar-brand {
 	padding: 0;
+	line-height:80px;
+	font-size: 24px;
+	
+	span {
+		font-size: 18px;
+	}
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+.navbar-collapse > ul {
+    margin-left: 215px;
+}
+.phone {
+	line-height:80px;
+	min-height:80px;
+}
+.phone-number {
+	line-height:25px;
+	color: #fff;
+	font-size: 20px;
+	padding-top: 12px;
+	font-weight:400; 
+	span {
+		font-weight:700;
+		font-size: 26px;
+	}
+	.time {
+		font-size: 14px;
+	}
+}
+.logo-text {
+	line-height:20px;
+	vertical-align:middle;
+	@include centerer(false, true);
+}
+.poezdka {
+	text-align:center;
+	padding: 10px;
+	font-size: 18px;
 }

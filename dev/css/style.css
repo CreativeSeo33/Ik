@@ -4973,8 +4973,8 @@ tbody.collapse.in {
       margin-right: 0; } }
 /* line 397, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default {
-  background-color: #3D9CD8;
-  border-color: #298ccb; }
+  background-color: #002C93;
+  border-color: #002272; }
   /* line 401, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-brand {
     color: #fff; }
@@ -4995,7 +4995,7 @@ tbody.collapse.in {
   /* line 425, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #555;
-    background-color: #298ccb; }
+    background-color: #002272; }
   /* line 433, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
     color: #ccc;
@@ -5012,10 +5012,10 @@ tbody.collapse.in {
   /* line 453, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
-    border-color: #298ccb; }
+    border-color: #002272; }
   /* line 462, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    background-color: #298ccb;
+    background-color: #002272;
     color: #555; }
   @media (max-width: 767px) {
     /* line 473, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
@@ -5028,7 +5028,7 @@ tbody.collapse.in {
     /* line 482, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
       color: #555;
-      background-color: #298ccb; }
+      background-color: #002272; }
     /* line 490, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
       color: #ccc;
@@ -7247,12 +7247,69 @@ button.close {
   .hidden-print {
     display: none !important; } }
 /* line 6, ../sass/style.scss */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; }
+
+/* line 10, ../sass/style.scss */
+b {
+  font-weight: 700; }
+
+/* line 14, ../sass/style.scss */
 .hero-image {
   width: 100%; }
-  /* line 8, ../sass/style.scss */
+  /* line 16, ../sass/style.scss */
   .hero-image img {
     width: 100%; }
 
-/* line 12, ../sass/style.scss */
+/* line 20, ../sass/style.scss */
 .navbar-brand {
-  padding: 0; }
+  padding: 0;
+  line-height: 80px;
+  font-size: 24px; }
+  /* line 25, ../sass/style.scss */
+  .navbar-brand span {
+    font-size: 18px; }
+
+/* line 29, ../sass/style.scss */
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none; }
+
+/* line 33, ../sass/style.scss */
+.navbar-collapse > ul {
+  margin-left: 215px; }
+
+/* line 36, ../sass/style.scss */
+.phone {
+  line-height: 80px;
+  min-height: 80px; }
+
+/* line 40, ../sass/style.scss */
+.phone-number {
+  line-height: 25px;
+  color: #fff;
+  font-size: 20px;
+  padding-top: 12px;
+  font-weight: 400; }
+  /* line 46, ../sass/style.scss */
+  .phone-number span {
+    font-weight: 700;
+    font-size: 26px; }
+  /* line 50, ../sass/style.scss */
+  .phone-number .time {
+    font-size: 14px; }
+
+/* line 54, ../sass/style.scss */
+.logo-text {
+  line-height: 20px;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%); }
+
+/* line 59, ../sass/style.scss */
+.poezdka {
+  text-align: center;
+  padding: 10px;
+  font-size: 18px; }
