@@ -3,61 +3,150 @@
 @import "bootstrap";
 @import "../libs/font-awesome/css/font-awesome.min.css";
 
+$header-height:90px;
+
 body {
 	font-family: 'Roboto', sans-serif;
 	font-weight:400;
+	background-color: #E7EAEB;
 }
-b {
-		font-weight:700;
-	}
-
-.hero-image {
-	width: 100%;
-	img {
-		width: 100%;
-	}
+.h2 {
+	font-size: 28px;
+	font-weight: 300;
 }
-.navbar-brand {
-	padding: 0;
-	line-height:80px;
-	font-size: 24px;
+.header {
+	height: $header-height;
+	line-height: $header-height;
+	background-color: #fff;
+}
+.logo {
+	height: $header-height;
+	background-color: #006CB5;
+	color: #fff;
+	line-height: $header-height;
+	font-size: 26px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 300;
 	
+}
+.priem-zakazov {
+	line-height: 20px;
+	font-weight: 16px;
+	padding: 20px;
+	float: right;
 	span {
-		font-size: 18px;
+		font-weight: 700;
 	}
 }
-.navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-}
-.navbar-collapse > ul {
-    margin-left: 215px;
+.ikea {
+		color: #FFD800;
+		font-weight: 700;
+	}
+.oplata-poluch {
+	color: #FFD800;
+	font-weight: 700;
+
 }
 .phone {
-	line-height:80px;
-	min-height:80px;
-}
-.phone-number {
-	line-height:25px;
-	color: #fff;
-	font-size: 20px;
-	padding-top: 12px;
-	font-weight:400; 
-	span {
-		font-weight:700;
-		font-size: 26px;
-	}
-	.time {
-		font-size: 14px;
-	}
-}
-.logo-text {
-	line-height:20px;
-	vertical-align:middle;
-	@include centerer(false, true);
-}
-.poezdka {
-	text-align:center;
-	padding: 10px;
+	float: right;
+	padding: 18px 30px;
 	font-size: 18px;
+	font-weight: 300;
+	height: $header-height;
+	line-height: 28px;
+	
+	span {
+		font-weight: 400;
+		 font-size: 22px;
+	}
 }
+.big-image {
+	background: url(../img/1.jpg) no-repeat;
+	background-size: 100%;
+	height: 486px;
+	
+	&_text {
+		padding-top: 10%;
+		padding-left: 5%;
+		font-size: 32px;
+		font-weight: 300;
+		color: #fff;
+	}
+}
+.calc {
+	background-color: #fff;
+	padding: 20px 50px;
+	.h2 {
+		//text-transform: uppercase;
+	}
+}
+.chekout {
+	padding: 30px;
+	text-align: center;
+	background-color: #FFD046;
+	color: #fff;
+	text-transform: uppercase;
+
+	.h2 {
+		line-height: 40px;
+		span {
+			color: #FEA900;
+
+		}
+	}
+}
+// b {
+// 		font-weight:700;
+// 	}
+
+// .hero-image {
+// 	width: 100%;
+// 	img {
+// 		width: 100%;
+// 	}
+// }
+// .navbar-brand {
+// 	padding: 0;
+// 	line-height:80px;
+// 	font-size: 24px;
+	
+// 	span {
+// 		font-size: 18px;
+// 	}
+// }
+// .navbar .navbar-nav {
+//     display: inline-block;
+//     float: none;
+// }
+// .navbar-collapse > ul {
+//     margin-left: 215px;
+// }
+// .phone {
+// 	line-height:80px;
+// 	min-height:80px;
+// }
+// .phone-number {
+// 	line-height:25px;
+// 	color: #fff;
+// 	font-size: 20px;
+// 	padding-top: 12px;
+// 	font-weight:400; 
+// 	span {
+// 		font-weight:700;
+// 		font-size: 26px;
+// 	}
+// 	.time {
+// 		font-size: 14px;
+// 	}
+// }
+// .logo-text {
+// 	line-height:20px;
+// 	vertical-align:middle;
+// 	@include centerer(false, true);
+// }
+// .poezdka {
+// 	text-align:center;
+// 	padding: 10px;
+// 	font-size: 18px;
+// }

@@ -7246,70 +7246,95 @@ button.close {
   /* line 18, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-print {
     display: none !important; } }
-/* line 6, ../sass/style.scss */
+/* line 8, ../sass/style.scss */
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400; }
+  font-weight: 400;
+  background-color: #E7EAEB; }
 
-/* line 10, ../sass/style.scss */
-b {
-  font-weight: 700; }
+/* line 13, ../sass/style.scss */
+.h2 {
+  font-size: 28px;
+  font-weight: 300; }
 
-/* line 14, ../sass/style.scss */
-.hero-image {
-  width: 100%; }
-  /* line 16, ../sass/style.scss */
-  .hero-image img {
-    width: 100%; }
+/* line 17, ../sass/style.scss */
+.header {
+  height: 90px;
+  line-height: 90px;
+  background-color: #fff; }
 
-/* line 20, ../sass/style.scss */
-.navbar-brand {
-  padding: 0;
-  line-height: 80px;
-  font-size: 24px; }
-  /* line 25, ../sass/style.scss */
-  .navbar-brand span {
-    font-size: 18px; }
-
-/* line 29, ../sass/style.scss */
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none; }
+/* line 22, ../sass/style.scss */
+.logo {
+  height: 90px;
+  background-color: #006CB5;
+  color: #fff;
+  line-height: 90px;
+  font-size: 26px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300; }
 
 /* line 33, ../sass/style.scss */
-.navbar-collapse > ul {
-  margin-left: 215px; }
-
-/* line 36, ../sass/style.scss */
-.phone {
-  line-height: 80px;
-  min-height: 80px; }
-
-/* line 40, ../sass/style.scss */
-.phone-number {
-  line-height: 25px;
-  color: #fff;
-  font-size: 20px;
-  padding-top: 12px;
-  font-weight: 400; }
-  /* line 46, ../sass/style.scss */
-  .phone-number span {
-    font-weight: 700;
-    font-size: 26px; }
-  /* line 50, ../sass/style.scss */
-  .phone-number .time {
-    font-size: 14px; }
-
-/* line 54, ../sass/style.scss */
-.logo-text {
+.priem-zakazov {
   line-height: 20px;
-  vertical-align: middle;
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%); }
+  font-weight: 16px;
+  padding: 20px;
+  float: right; }
+  /* line 38, ../sass/style.scss */
+  .priem-zakazov span {
+    font-weight: 700; }
 
-/* line 59, ../sass/style.scss */
-.poezdka {
+/* line 42, ../sass/style.scss */
+.ikea {
+  color: #FFD800;
+  font-weight: 700; }
+
+/* line 46, ../sass/style.scss */
+.oplata-poluch {
+  color: #FFD800;
+  font-weight: 700; }
+
+/* line 51, ../sass/style.scss */
+.phone {
+  float: right;
+  padding: 18px 30px;
+  font-size: 18px;
+  font-weight: 300;
+  height: 90px;
+  line-height: 28px; }
+  /* line 59, ../sass/style.scss */
+  .phone span {
+    font-weight: 400;
+    font-size: 22px; }
+
+/* line 64, ../sass/style.scss */
+.big-image {
+  background: url(../img/1.jpg) no-repeat;
+  background-size: 100%;
+  height: 486px; }
+  /* line 69, ../sass/style.scss */
+  .big-image_text {
+    padding-top: 10%;
+    padding-left: 5%;
+    font-size: 32px;
+    font-weight: 300;
+    color: #fff; }
+
+/* line 77, ../sass/style.scss */
+.calc {
+  background-color: #fff;
+  padding: 20px 50px; }
+
+/* line 84, ../sass/style.scss */
+.chekout {
+  padding: 30px;
   text-align: center;
-  padding: 10px;
-  font-size: 18px; }
+  background-color: #FFD046;
+  color: #fff;
+  text-transform: uppercase; }
+  /* line 91, ../sass/style.scss */
+  .chekout .h2 {
+    line-height: 40px; }
+    /* line 93, ../sass/style.scss */
+    .chekout .h2 span {
+      color: #FEA900; }
