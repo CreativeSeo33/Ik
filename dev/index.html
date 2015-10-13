@@ -8,67 +8,236 @@
 </head>
 <body>
 
-<div class="container-fluid">
-	<div class="row">
-		<nav class="navbar navbar-default">
-		  <div class="container">
-		    
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      <a class="navbar-brand" href="#"><div class="logo-text">Доставка из <b>IKEA</b><br><span>во Владимир</span></div></a>
-		    </div> <!-- navbar-header -->
-				
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		      <ul class="nav navbar-nav">
-		        <li><a href="#">Link <span class="sr-only">(current)</span></a></li>
-		        <li><a href="#">Link</a></li>
-		        <li class="dropdown">
-		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-		          <ul class="dropdown-menu">
-		            <li><a href="#">Action</a></li>
-		            <li><a href="#">Another action</a></li>
-		            <li><a href="#">Something else here</a></li>
-		            <li role="separator" class="divider"></li>
-		            <li><a href="#">Separated link</a></li>
-		            <li role="separator" class="divider"></li>
-		            <li><a href="#">One more separated link</a></li>
-		          </ul>
-		        </li>
-		      </ul>
-		      <div class="navbar-right clearfix phone">
-		      	<div class="phone-number">
-		      		+7(4922) <span>60-22-41</span> <br>
-					+7(930) <span>600-22-41</span> <br> 
-					<span class="time">С 09:00 до 20:00</span>
-		      	</div>
-			  </div>
-		    </div><!-- /.navbar-collapse -->
+<div class="container">
 
-			
-
-		  </div><!-- /.container-fluid -->
-		</nav>
-	</div> <!-- row -->
 	<div class="row">
-		<div class="poezdka">До следующей поездки осталось <b>7 дней</b> </div>
+		<div class="header">
+			<div class="col-md-3 logo">
+				<div class="">
+					Доставка <span class="ikea">Ikea</span>
+					<!-- во Владимир -->
+				</div>
+			</div>
+			<div class="col-md-3"></div>
+			<div class="col-md-3">
+				<div class="priem-zakazov">
+					<span>Прием заказов</span><br>
+					c 9:00 - 20:00
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="phone">
+					+7(4922)  <span>604-529</span><br>
+					+7(930) <span>605-45-29</span>
+				</div>
+			</div>
+		</div>
 	</div>
-</div> <!-- container-fluid -->
 
+	<div class="row">
+		<div class="big-image">
+			<div class="col-md-6 big-image_text">
+				Доставка товаров из <span class="ikea">IKEA</span> <br>
+				во Владимир <br>
+				<span class="oplata-poluch">с оплатой при получении</span>
+			</div>
+			<div class="data-poezdki">
+				Следующая поездка
+				<div class="date">
+					18
+				</div>
+				Октября
+			</div>
+		</div>
+	</div>
 
+	<!-- Калькулятор -->
+	<div class="row calc">
+		<div class="h2">Калькулятор стоимости доставки</div>
+		<div class="col-md-6 ">
+			
+		</div>
+		<div class="col-md-3 st-zak">
+			<div class="st-zak_h3">Стоимость вашего заказа</div>
+			<div class="st-zak_cena">14 000 руб.</div>
+			<div>+</div>
+			<div class="st-zak_h3">Стоимость доставки</div>
+			<div class="st-zak_cena">2 000 руб.</div>
+		</div>
+		<div class="col-md-3 vsego">
+			<div class="vsego_h3">Всего к оплате</div>
+			<div class="price">16000 руб.</div>
+		</div>
+	</div>
+	<!-- Калькулятор -->
 
-<div class="hero-image">
-	<img src="img/top-img.jpg" class="img-responsive" alt="">
+	<!-- Способы оформления заказа -->
+	<div class="row">
+		<div class="col-md-12 chekout">
+			<div class="h2">Способы оформления заказа <br>
+				            <span>Мы предлагаем 3 варианта</span>
+			</div>
+		</div>
+	</div>
+	<!-- Способы оформления заказа -->
+
+	<div class="row">
+		<div class="col-md-6 sposob1 block">
+			<div class="h2">Способ №1</div>
+			<p>Отправьте на почту <a href="mailto:zakaz@ikea.ru">zakaz@ikea.ru</a>  ссылки на нужный товар или артикул и менеджер свяжется с вами для уточнения
+ стоимости и срока доставки заказа.</p>
+		</div>
+		<div class="col-md-6 sposob2 block">
+			<div class="h2">Способ №2</div>
+			<p>Напишите в он-лайн консультант список товаров, которые вы хотите купить.
+			<br>
+			<br>
+			</p>
+		</div>
+	</div>
+
+	<div class="row sposob3 block">
+		<div class="">
+			<div class="h2">Способ №3</div>
+
+			<div class="col-md-6">
+				<p>1. Перейти на сайт <a href="http://www.ikea.com/ru/ru/" rel="nofolow">IKEA</a>.  Выберите нужные товары и добавьте их в список покупок.
+				<br>
+				<br>
+				</p>
+				<img src="img/s1.jpg" alt="" class="img-responsive">
+			</div>
+
+			<div class="col-md-6">
+				<p>2. После добавления всех товаров в список покупок, перейдите в него по ссылке "список покупок" в верхнем правом углу страницы товара.</p>
+				<img src="img/s2.jpg" alt="" class="img-responsive">
+			</div>
+
+			<div class="col-md-6">
+				<p>3. На странице "список покупок" проверьте правильность списка нужных вам товаров. Затем нажмите на кнопку "отправить по электронной почте"</p>
+				<img src="img/s3.jpg" alt="" class="img-responsive">
+			</div>
+
+			<div class="col-md-6">
+				<p>4. Введите в открывшейся форме актуальные данные</p>
+				<img src="img/s4.jpg" alt="" class="img-responsive pull-right">
+				<ul>
+					<li>Вашу электронную почту (если есть, если нет, то почту zakaz@ikea33.ru)</li>
+					<li>В поле Сообщение введите ваше имя и номер телефона</li>
+					<li>В поле Адрес электронная почта получателей почту: zakaz@ikea33.ru</li>
+				</ul>
+				
+			</div>
+			
+		</div>
+	</div>
+
+	<div class="catalog">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 catalog-block-margin servirovka">
+				
+				<div class="catalog-block clearfix">
+					<div class="catalog-block-h2">
+						Сервировка
+					</div>
+					<ul>
+						<li><a target="_blank" href="http://www.ikea.com/ru/ru/catalog/categories/departments/eating/16044/">Чай и кофе</a></li>
+						<li><a target="_blank" href="http://www.ikea.com/ru/ru/catalog/categories/departments/eating/18865/">Столовые приборы</a></li>
+						<li><a target="_blank" href="http://www.ikea.com/ru/ru/catalog/categories/departments/eating/18860/">Столовая посуда,</a></li>
+						<li><a target="_blank" href="http://www.ikea.com/ru/ru/catalog/categories/departments/eating/18868/">Бокалы и кувшины,</a></li>
+						<li><a target="_blank" href="http://www.ikea.com/ru/ru/catalog/categories/departments/eating/20560/">Салфетки,</a></li>
+						<li><a target="_blank" href="http://www.ikea.com/ru/ru/catalog/categories/departments/Textiles/20538/">Салфетки под приборы и текстиль для столовой</a></li>
+						<li><a target="_blank" href="http://www.ikea.com/ru/ru/catalog/categories/departments/eating/16043/">Посуда для сервировки</a></li>
+					</ul>
+				</div>
+				
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 catalog-block-margin kuh">
+				<div class="catalog-block clearfix">
+					<div class="catalog-block-h2">
+						Приготовление пищи
+					</div>
+					<ul>
+						<li><a target="_blank" href="http://www.ikea.com/ru/ru/catalog/categories/departments/cooking/20636/">Формы для выпечки</a></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 catalog-block-margin osv">
+				<div class="catalog-block clearfix">
+					<div class="catalog-block-h2">
+						Освещение
+					</div>
+					<ul>
+						<li><a target="_blank" href="http://www.ikea.com/ru/ru/catalog/categories/departments/cooking/20636/">Формы для выпечки</a></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	<footer class="row">
+		
+			
+				<div class="col-md-4">
+					© 2015 «ikea.ru» Доставка товаров из IKEA во Владимир
+				</div>
+
+				<div class="col-md-4">
+					<div class="footer-phone">
+					+7(4922)  <span>604-529</span><br>
+					+7(930) <span>605-45-29</span><br>
+					Время работы с 9:00 до 20:00
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="social">
+						<span class="fa-stack fa-2x">
+						  <i class="fa fa-circle fa-stack-2x"></i>
+						  <i class="fa fa-vk fa-stack-1x"></i>
+						</span>
+						<span class="fa-stack fa-2x">
+						  <i class="fa fa-circle fa-stack-2x"></i>
+						  <i class="fa fa-odnoklassniki fa-stack-1x"></i>
+						</span>
+						<span class="fa-stack fa-2x">
+						  <i class="fa fa-circle fa-stack-2x"></i>
+						  <i class="fa fa-google-plus fa-stack-1x"></i>
+						</span>
+						<span class="fa-stack fa-2x">
+						  <i class="fa fa-circle fa-stack-2x"></i>
+						  <i class="fa fa-instagram fa-stack-1x"></i>
+						</span>
+					</div>
+				</div>
+			
+		
+	</footer>
+
 </div>
+
 
 
 	
 
 <script src="libs/jquery/dist/jquery.min.js"></script>
 <script src="libs/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries --> 
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// --> 
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </body>
 </html>

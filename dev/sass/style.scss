@@ -65,7 +65,7 @@ body {
 	background: url(../img/1.jpg) no-repeat;
 	background-size: 100%;
 	height: 486px;
-	
+	position: relative;	
 	&_text {
 		padding-top: 10%;
 		padding-left: 5%;
@@ -73,6 +73,21 @@ body {
 		font-weight: 300;
 		color: #fff;
 	}
+}
+.data-poezdki {
+	position: absolute;
+	top:0;
+	right:0;
+	padding: 15px;	
+	background-color: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	text-align:center;
+	font-size:18px;
+}
+.date {
+	font-size:48px;
+	font-weight: 700;
+	color: #FFD800;
 }
 .calc {
 	background-color: #fff;
@@ -160,57 +175,50 @@ footer {
 		color: #695049;
 	}
 }
-// b {
-// 		font-weight:700;
-// 	}
 
-// .hero-image {
-// 	width: 100%;
-// 	img {
-// 		width: 100%;
-// 	}
-// }
-// .navbar-brand {
-// 	padding: 0;
-// 	line-height:80px;
-// 	font-size: 24px;
-	
-// 	span {
-// 		font-size: 18px;
-// 	}
-// }
-// .navbar .navbar-nav {
-//     display: inline-block;
-//     float: none;
-// }
-// .navbar-collapse > ul {
-//     margin-left: 215px;
-// }
-// .phone {
-// 	line-height:80px;
-// 	min-height:80px;
-// }
-// .phone-number {
-// 	line-height:25px;
-// 	color: #fff;
-// 	font-size: 20px;
-// 	padding-top: 12px;
-// 	font-weight:400; 
-// 	span {
-// 		font-weight:700;
-// 		font-size: 26px;
-// 	}
-// 	.time {
-// 		font-size: 14px;
-// 	}
-// }
-// .logo-text {
-// 	line-height:20px;
-// 	vertical-align:middle;
-// 	@include centerer(false, true);
-// }
-// .poezdka {
-// 	text-align:center;
-// 	padding: 10px;
-// 	font-size: 18px;
-// }
+// CATALOG
+
+.catalog {
+	&-block {
+		background-color: rgba(0, 0, 0, 0.4);
+		padding: 20px;
+		width: 100%;
+		&-margin {
+			padding:0;
+			
+		}
+		&-h2 {
+			font-size: 22px;
+			color: #fff;
+			padding: 5px 0 20px 0;
+			font-weight:400;
+		}
+		ul {
+			min-height:190px;
+		}
+		ul li {
+			font-size:16px;
+			list-style-type: none;
+			
+			a {
+				color: #fff;
+				
+			}
+		}
+	}
+	.servirovka {
+		background: url(../img/servirovka.jpg) no-repeat;
+		background-size: 100%;
+
+	}
+	.kuh {
+		background: url(../img/kuh.jpg) no-repeat;
+		background-size: cover;	
+	}
+	.osv {
+		background: url(../img/osv.jpg) no-repeat;
+		background-size: cover;	
+	}
+}
+
+// CATALOG
