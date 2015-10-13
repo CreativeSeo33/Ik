@@ -61,6 +61,7 @@ body {
 	line-height: 24px;
 	//color: $gold;
 	font-weight: 300;
+	z-index: 100;
 	span {
 		
 		font-size: 22px;
@@ -75,8 +76,32 @@ body {
 	}
 }
 .bg {
-	background: url(../img/2.jpg) no-repeat;
+	background: url(../img/11.jpg) no-repeat;
 	background-size: cover;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	overflow: hidden;
+	position: relative;
+}
+.im {
+	position: absolute;
+	top:0;
+	margin-left: 53%;
+	//background-color: #fff;
+	width: 1210px;
+	height: 100%;
+	overflow: hidden;
+	z-index: 1;
+	background: url(../img/33.jpg) 100% 100% no-repeat;
+	background-size: contain;
+	transform: rotateZ(10deg)
+}
+.scene {
+	overflow: hidden;
+}
+.t {
+	transform: rotateZ(10deg);
+	display: block;
 }
 .big-image {
 	

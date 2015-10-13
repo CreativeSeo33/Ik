@@ -7302,28 +7302,55 @@ body {
   font-weight: 100;
   height: 90px;
   line-height: 24px;
-  font-weight: 300; }
-  /* line 64, ../sass/style.scss */
+  font-weight: 300;
+  z-index: 100; }
+  /* line 65, ../sass/style.scss */
   .phone span {
     font-size: 22px;
     font-weight: 300;
     color: #006CB5; }
-  /* line 70, ../sass/style.scss */
+  /* line 71, ../sass/style.scss */
   .phone .time {
     color: #333333;
     font-size: 14px;
     vertical-align: top; }
 
-/* line 77, ../sass/style.scss */
+/* line 78, ../sass/style.scss */
 .bg {
-  background: url(../img/2.jpg) no-repeat;
-  background-size: cover; }
+  background: url(../img/11.jpg) no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  overflow: hidden;
+  position: relative; }
 
-/* line 81, ../sass/style.scss */
+/* line 86, ../sass/style.scss */
+.im {
+  position: absolute;
+  top: 0;
+  margin-left: 53%;
+  width: 1210px;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+  background: url(../img/33.jpg) 100% 100% no-repeat;
+  background-size: contain;
+  transform: rotateZ(10deg); }
+
+/* line 99, ../sass/style.scss */
+.scene {
+  overflow: hidden; }
+
+/* line 102, ../sass/style.scss */
+.t {
+  transform: rotateZ(10deg);
+  display: block; }
+
+/* line 106, ../sass/style.scss */
 .big-image {
   height: 486px;
   position: relative; }
-  /* line 85, ../sass/style.scss */
+  /* line 110, ../sass/style.scss */
   .big-image_text {
     padding-top: 10%;
     padding-left: 5%;
@@ -7331,7 +7358,7 @@ body {
     font-weight: 300;
     color: #fff; }
 
-/* line 93, ../sass/style.scss */
+/* line 118, ../sass/style.scss */
 .data-poezdki {
   position: absolute;
   top: 0;
@@ -7342,35 +7369,35 @@ body {
   text-align: center;
   font-size: 18px; }
 
-/* line 103, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 .date {
   font-size: 48px;
   font-weight: 700;
   color: #FFD800; }
 
-/* line 108, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 .calc {
   padding: 0 25px 35px 0;
   font-weight: 300;
   position: absolute;
   top: 50%;
   transform: translate(0, -50%); }
-  /* line 112, ../sass/style.scss */
+  /* line 137, ../sass/style.scss */
   .calc .h2 {
     font-size: 24px;
     font-weight: 300;
     color: #006CB5; }
-  /* line 117, ../sass/style.scss */
+  /* line 142, ../sass/style.scss */
   .calc p {
     font-size: 12px;
     padding-right: 10px;
     margin: 0; }
 
-/* line 123, ../sass/style.scss */
+/* line 148, ../sass/style.scss */
 .calc-form-row {
   padding: 12px 0; }
 
-/* line 126, ../sass/style.scss */
+/* line 151, ../sass/style.scss */
 .calc-price {
   min-height: 40px;
   border-radius: 18px;
@@ -7379,127 +7406,127 @@ body {
   box-sizing: border-box;
   margin-left: 5px;
   padding-left: 10px; }
-  /* line 134, ../sass/style.scss */
+  /* line 159, ../sass/style.scss */
   .calc-price:focus {
     border-color: #FFD800; }
 
-/* line 138, ../sass/style.scss */
+/* line 163, ../sass/style.scss */
 .calc-form {
   margin-top: 2px; }
 
-/* line 142, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 .st-zak {
   text-align: center; }
-  /* line 144, ../sass/style.scss */
+  /* line 169, ../sass/style.scss */
   .st-zak_h3 {
     font-size: 16px; }
-  /* line 147, ../sass/style.scss */
+  /* line 172, ../sass/style.scss */
   .st-zak_cena {
     font-size: 18px;
     font-weight: 700; }
 
-/* line 152, ../sass/style.scss */
+/* line 177, ../sass/style.scss */
 .vsego {
   text-align: center; }
-  /* line 154, ../sass/style.scss */
+  /* line 179, ../sass/style.scss */
   .vsego_h3 {
     font-size: 22px; }
-  /* line 157, ../sass/style.scss */
+  /* line 182, ../sass/style.scss */
   .vsego .price {
     font-size: 38px;
     font-weight: 700;
     color: #006CB5; }
 
-/* line 164, ../sass/style.scss */
+/* line 189, ../sass/style.scss */
 .chekout {
   padding: 20px;
   text-align: center;
   background-color: #FFD046;
   color: #fff;
   text-transform: uppercase; }
-  /* line 171, ../sass/style.scss */
+  /* line 196, ../sass/style.scss */
   .chekout .h2 {
     line-height: 40px; }
-    /* line 173, ../sass/style.scss */
+    /* line 198, ../sass/style.scss */
     .chekout .h2 span {
       color: #FEA900; }
 
-/* line 179, ../sass/style.scss */
+/* line 204, ../sass/style.scss */
 .block {
   padding: 40px 60px; }
-  /* line 181, ../sass/style.scss */
+  /* line 206, ../sass/style.scss */
   .block p {
     font-weight: 300;
     padding-top: 30px;
     font-size: 16px; }
 
-/* line 187, ../sass/style.scss */
+/* line 212, ../sass/style.scss */
 .sposob1 {
   background-color: #F8F8F8; }
 
-/* line 190, ../sass/style.scss */
+/* line 215, ../sass/style.scss */
 .sposob2 {
   background-color: #F4F5F4; }
 
-/* line 193, ../sass/style.scss */
+/* line 218, ../sass/style.scss */
 .sposob3 {
   background-color: #fff; }
 
-/* line 196, ../sass/style.scss */
+/* line 221, ../sass/style.scss */
 footer {
   background-color: #006CB5;
   color: #fff;
   padding: 30px; }
 
-/* line 206, ../sass/style.scss */
+/* line 231, ../sass/style.scss */
 .social {
   float: right; }
-  /* line 208, ../sass/style.scss */
+  /* line 233, ../sass/style.scss */
   .social .fa-vk {
     color: #507296; }
-  /* line 211, ../sass/style.scss */
+  /* line 236, ../sass/style.scss */
   .social .fa-odnoklassniki {
     color: #F58220; }
-  /* line 214, ../sass/style.scss */
+  /* line 239, ../sass/style.scss */
   .social .fa-google-plus {
     color: #F63E28; }
-  /* line 217, ../sass/style.scss */
+  /* line 242, ../sass/style.scss */
   .social .fa-instagram {
     color: #695049; }
 
-/* line 225, ../sass/style.scss */
+/* line 250, ../sass/style.scss */
 .catalog-block {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
   width: 100%; }
-  /* line 229, ../sass/style.scss */
+  /* line 254, ../sass/style.scss */
   .catalog-block-margin {
     padding: 0; }
-  /* line 233, ../sass/style.scss */
+  /* line 258, ../sass/style.scss */
   .catalog-block-h2 {
     font-size: 22px;
     color: #fff;
     padding: 5px 0 20px 0;
     font-weight: 100; }
-  /* line 239, ../sass/style.scss */
+  /* line 264, ../sass/style.scss */
   .catalog-block ul {
     min-height: 190px; }
-  /* line 242, ../sass/style.scss */
+  /* line 267, ../sass/style.scss */
   .catalog-block ul li {
     font-size: 16px;
     list-style-type: none; }
-    /* line 246, ../sass/style.scss */
+    /* line 271, ../sass/style.scss */
     .catalog-block ul li a {
       color: #fff; }
-/* line 252, ../sass/style.scss */
+/* line 277, ../sass/style.scss */
 .catalog .servirovka {
   background: url(../img/servirovka.jpg) no-repeat;
   background-size: 100%; }
-/* line 257, ../sass/style.scss */
+/* line 282, ../sass/style.scss */
 .catalog .kuh {
   background: url(../img/kuh.jpg) no-repeat;
   background-size: cover; }
-/* line 261, ../sass/style.scss */
+/* line 286, ../sass/style.scss */
 .catalog .osv {
   background: url(../img/osv.jpg) no-repeat;
   background-size: cover; }
