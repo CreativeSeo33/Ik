@@ -7249,7 +7249,7 @@ button.close {
 /* line 8, ../sass/style.scss */
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   background-color: #E7EAEB; }
 
 /* line 13, ../sass/style.scss */
@@ -7385,4 +7385,22 @@ body {
 
 /* line 138, ../sass/style.scss */
 footer {
-  background-color: #006CB5; }
+  background-color: #006CB5;
+  color: #fff;
+  padding: 30px; }
+
+/* line 148, ../sass/style.scss */
+.social {
+  float: right; }
+  /* line 150, ../sass/style.scss */
+  .social .fa-vk {
+    color: #507296; }
+  /* line 153, ../sass/style.scss */
+  .social .fa-odnoklassniki {
+    color: #F58220; }
+  /* line 156, ../sass/style.scss */
+  .social .fa-google-plus {
+    color: #F63E28; }
+  /* line 159, ../sass/style.scss */
+  .social .fa-instagram {
+    color: #695049; }
