@@ -209,6 +209,30 @@ button:focus{
 }
 
 // Button
+.top-social {
+	position: absolute;
+	bottom: 5%;
+	right: 15%;
+	z-index:100;
+	a {
+		color: #333;
+	}
+	i {
+		padding: 4px;
+		font-size: 18px;
+		color: #7D7775;
+		transition: all 0.25s ease-out 0s;
+	}
+	 .fa-vk:hover {
+	 	color: #507296;
+	 }
+	 .fa-odnoklassniki:hover {
+	 	color: #F58220;
+	 }
+	.fa-google-plus:hover {
+	 	color: #F63E28;
+	}
+}
 .st-zak {
 	text-align: center;
 	&_h3 {

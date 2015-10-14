@@ -7459,124 +7459,149 @@ button:focus {
   margin-top: -300px; }
 
 /* line 212, ../sass/style.scss */
+.top-social {
+  position: absolute;
+  bottom: 5%;
+  right: 15%;
+  z-index: 100; }
+  /* line 217, ../sass/style.scss */
+  .top-social a {
+    color: #333; }
+  /* line 220, ../sass/style.scss */
+  .top-social i {
+    padding: 4px;
+    font-size: 18px;
+    color: #7D7775;
+    transition: all 0.25s ease-out 0s; }
+  /* line 226, ../sass/style.scss */
+  .top-social .fa-vk:hover {
+    color: #507296; }
+  /* line 229, ../sass/style.scss */
+  .top-social .fa-odnoklassniki:hover {
+    color: #F58220; }
+  /* line 232, ../sass/style.scss */
+  .top-social .fa-google-plus:hover {
+    color: #F63E28; }
+
+/* line 236, ../sass/style.scss */
 .st-zak {
   text-align: center; }
-  /* line 214, ../sass/style.scss */
+  /* line 238, ../sass/style.scss */
   .st-zak_h3 {
     font-size: 16px; }
-  /* line 217, ../sass/style.scss */
+  /* line 241, ../sass/style.scss */
   .st-zak_cena {
     font-size: 18px;
     font-weight: 700; }
 
-/* line 222, ../sass/style.scss */
+/* line 246, ../sass/style.scss */
 .vsego {
   text-align: center; }
-  /* line 224, ../sass/style.scss */
+  /* line 248, ../sass/style.scss */
   .vsego_h3 {
     font-size: 22px; }
-  /* line 227, ../sass/style.scss */
+  /* line 251, ../sass/style.scss */
   .vsego .price {
     font-size: 38px;
     font-weight: 700;
     color: #006CB5; }
 
-/* line 234, ../sass/style.scss */
+/* line 258, ../sass/style.scss */
 .chekout {
   padding: 20px;
   text-align: center;
   background-color: #FFD046;
   color: #fff;
   text-transform: uppercase; }
-  /* line 241, ../sass/style.scss */
+  /* line 265, ../sass/style.scss */
   .chekout .h2 {
     line-height: 40px; }
-    /* line 243, ../sass/style.scss */
+    /* line 267, ../sass/style.scss */
     .chekout .h2 span {
       color: #FEA900; }
 
-/* line 249, ../sass/style.scss */
+/* line 273, ../sass/style.scss */
 .block {
   padding: 40px 60px; }
-  /* line 251, ../sass/style.scss */
+  /* line 275, ../sass/style.scss */
   .block p {
     font-weight: 300;
     padding-top: 30px;
     font-size: 16px; }
 
-/* line 257, ../sass/style.scss */
+/* line 281, ../sass/style.scss */
 .sposob1 {
   background-color: #F8F8F8; }
 
-/* line 260, ../sass/style.scss */
+/* line 284, ../sass/style.scss */
 .sposob2 {
   background-color: #F4F5F4; }
 
-/* line 263, ../sass/style.scss */
+/* line 287, ../sass/style.scss */
 .sposob3 {
   background-color: #fff; }
 
-/* line 266, ../sass/style.scss */
+/* line 290, ../sass/style.scss */
 footer {
   background-color: #006CB5;
   color: #fff;
   padding: 30px; }
 
-/* line 276, ../sass/style.scss */
+/* line 300, ../sass/style.scss */
 .social {
   float: right; }
-  /* line 278, ../sass/style.scss */
+  /* line 302, ../sass/style.scss */
   .social a {
     color: #fff; }
-    /* line 280, ../sass/style.scss */
+    /* line 304, ../sass/style.scss */
     .social a:hover, .social a:focus, .social a:active {
       text-decoration: none; }
-  /* line 284, ../sass/style.scss */
+  /* line 308, ../sass/style.scss */
   .social .fa-vk {
     color: #507296; }
-  /* line 287, ../sass/style.scss */
+  /* line 311, ../sass/style.scss */
   .social .fa-odnoklassniki {
     color: #F58220; }
-  /* line 290, ../sass/style.scss */
+  /* line 314, ../sass/style.scss */
   .social .fa-google-plus {
     color: #F63E28; }
-  /* line 293, ../sass/style.scss */
+  /* line 317, ../sass/style.scss */
   .social .fa-instagram {
     color: #695049; }
 
-/* line 301, ../sass/style.scss */
+/* line 325, ../sass/style.scss */
 .catalog-block {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
   width: 100%; }
-  /* line 305, ../sass/style.scss */
+  /* line 329, ../sass/style.scss */
   .catalog-block-margin {
     padding: 0; }
-  /* line 309, ../sass/style.scss */
+  /* line 333, ../sass/style.scss */
   .catalog-block-h2 {
     font-size: 22px;
     color: #fff;
     padding: 5px 0 20px 0;
     font-weight: 100; }
-  /* line 315, ../sass/style.scss */
+  /* line 339, ../sass/style.scss */
   .catalog-block ul {
     min-height: 190px; }
-  /* line 318, ../sass/style.scss */
+  /* line 342, ../sass/style.scss */
   .catalog-block ul li {
     font-size: 16px;
     list-style-type: none; }
-    /* line 322, ../sass/style.scss */
+    /* line 346, ../sass/style.scss */
     .catalog-block ul li a {
       color: #fff; }
-/* line 328, ../sass/style.scss */
+/* line 352, ../sass/style.scss */
 .catalog .servirovka {
   background: url(../img/servirovka.jpg) no-repeat;
   background-size: 100%; }
-/* line 333, ../sass/style.scss */
+/* line 357, ../sass/style.scss */
 .catalog .kuh {
   background: url(../img/kuh.jpg) no-repeat;
   background-size: cover; }
-/* line 337, ../sass/style.scss */
+/* line 361, ../sass/style.scss */
 .catalog .osv {
   background: url(../img/osv.jpg) no-repeat;
   background-size: cover; }
