@@ -86,13 +86,13 @@ body {
 .im {
 	position: absolute;
 	top:0;
-	margin-left: 60%;
+	margin-left: 32%;
 	//background-color: #fff;
 	width: 1210px;
 	height: 100%;
 	overflow: hidden;
 	z-index: 1;
-	background: url(../img/33.jpg) 100% 100% no-repeat;
+	background: url(../img/33.png) 100% 100% no-repeat;
 	background-size: contain;
 	transform: rotateZ(10deg)
 }
@@ -152,7 +152,7 @@ body {
     border: 1px solid #d9d9d9;
     box-sizing: border-box;
     margin-left: 5px;
-    padding-left: 10px;
+    padding-left: 12px;
     &:focus {
     	border-color: $gold;
     }
@@ -161,6 +161,54 @@ body {
 	margin-top: 2px;
 	
 }
+// Button
+
+button{
+    display: block;
+    position:relative;
+    cursor: pointer;
+    color: #333333;
+    background: transparent;
+    border-radius: 18px;
+	border: 1px solid #d9d9d9;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 6px 15px;
+    overflow:hidden;
+    transition: all 0.3s ease-in;
+    margin-left: 30%;
+}
+button:hover{
+  color:#333333;
+}
+button:focus{
+  color:#333333;
+}
+.blob{
+  z-index:-1;
+  position:absolute;
+  width:2px;
+  height:2px;
+  margin-left: 0;
+  margin-top: 0;
+  background:hsla(51, 95%, 65%, 1);
+  border-radius: 50%;
+  border-color:hsla(51, 95%, 65%, 1);
+  border-width: 1px;
+  border-style: solid;
+  transition: border-width 0.7s ease-in-out,margin-left 0.7s ease-in-out,margin-top 0.7s ease-in-out;
+}
+.expand{
+  border-color:hsla(51, 95%, 65%, 1);
+  border-width: 300px;
+  border-style: solid;
+  transition: border-width 0.7s ease-in-out,margin-left 0.7s ease-in-out,margin-top 0.7s ease-in-out;
+  margin-left:-300px;
+  margin-top:-300px;
+}
+
+// Button
 .st-zak {
 	text-align: center;
 	&_h3 {
@@ -227,6 +275,12 @@ footer {
 }
 .social {
 	float: right;
+	a {
+		color: #fff;
+		&:hover, &:focus, &:active {
+			text-decoration: none;
+		}
+	}
 	.fa-vk {
 		color: #507296;
 	}
