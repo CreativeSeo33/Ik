@@ -184,6 +184,17 @@ a.site-ikea {
 	margin-top: 2px;
 	
 }
+.step {
+	font-size: 42px;
+	color: $blue;
+	font-weight: 700;
+}
+.sposob-zakaz {
+	margin-top: 20%;
+}
+.poryadok {
+	padding: 20px;
+}
 // Button
 
 button{
@@ -324,6 +335,11 @@ button:focus{
 }
 .sposob3 {
 	background-color: #fff;	
+	position: relative;
+	.h2 {
+		text-align: center;
+		margin-top: 0;
+	}
 }
 footer {
 	
