@@ -328,7 +328,7 @@
 		if(op1.value=="" || op1.value!=parseFloat(op1.value)||op1.value<100||op1.value>200000) {alert('Ошибочно введенные данные. Стоимость заказа должна состоять только из цифр без пробелов. В качестве разделителя дробного числа используйте . (точку). Максимальная стоимость заказа - 200000 руб., Минимальная стоимость заказа - 100 руб ');
 window.confirm(msg);
 }
-		if (parseInt(op1.value)>0 & parseInt(op1.value)<300) {
+		if (parseInt(op1.value)>=0 & parseInt(op1.value)<300) {
 			price = parseInt(op1.value)*1.31;
 			dostav = price - parseInt(op1.value);
 			dostav = dostav.toFixed(0);
@@ -337,7 +337,7 @@ window.confirm(msg);
 			result.innerHTML = price + ' руб.';
 		}
 
-		if (parseInt(op1.value)>300 & parseInt(op1.value)<500) {
+		if (parseInt(op1.value)>=300 & parseInt(op1.value)<500) {
 			price = parseInt(op1.value)*1.29;
 			dostav = price - parseInt(op1.value);
 			dostav = dostav.toFixed(0);
@@ -346,7 +346,7 @@ window.confirm(msg);
 			result.innerHTML = price + ' руб.';
 		}
 
-		if (parseInt(op1.value)>500 & parseInt(op1.value)<1000) {
+		if (parseInt(op1.value)>=500 & parseInt(op1.value)<1000) {
 			price = parseInt(op1.value)*1.26;
 			dostav = price - parseInt(op1.value);
 			dostav = dostav.toFixed(0);
@@ -355,7 +355,7 @@ window.confirm(msg);
 			result.innerHTML = price + ' руб.';
 		}
 
-		if (parseInt(op1.value)>1000 & parseInt(op1.value)<1500) {
+		if (parseInt(op1.value)>=1000 & parseInt(op1.value)<1500) {
 			price = parseInt(op1.value)*1.24;
 			dostav = price - parseInt(op1.value);
 			dostav = dostav.toFixed(0);
@@ -364,7 +364,7 @@ window.confirm(msg);
 			result.innerHTML = price + ' руб.';
 		}
 
-		if (parseInt(op1.value)>1500 & parseInt(op1.value)<2000) {
+		if (parseInt(op1.value)>=1500 & parseInt(op1.value)<2000) {
 			price = parseInt(op1.value)*1.23;
 			dostav = price - parseInt(op1.value);
 			dostav = dostav.toFixed(0);
@@ -373,7 +373,7 @@ window.confirm(msg);
 			result.innerHTML = price + ' руб.';
 		}
 
-		if (parseInt(op1.value)>2000 & parseInt(op1.value)<3000) {
+		if (parseInt(op1.value)>=2000 & parseInt(op1.value)<3000) {
 			price = parseInt(op1.value)*1.21;
 			dostav = price - parseInt(op1.value);
 			dostav = dostav.toFixed(0);
@@ -382,7 +382,7 @@ window.confirm(msg);
 			result.innerHTML = price + ' руб.';
 		}
 
-		if (parseInt(op1.value)>3000 & parseInt(op1.value)<4000) {
+		if (parseInt(op1.value)>=3000 & parseInt(op1.value)<4000) {
 			price = parseInt(op1.value)*1.20;
 			dostav = price - parseInt(op1.value);
 			dostav = dostav.toFixed(0);
@@ -391,7 +391,7 @@ window.confirm(msg);
 			result.innerHTML = price + ' руб.';
 		}
 
-		if (parseInt(op1.value)>4000 & parseInt(op1.value)<1900) {
+		if (parseInt(op1.value)>=4000 & parseInt(op1.value)<1900) {
 			price = parseInt(op1.value)*1.23;
 			dostav = price - parseInt(op1.value);
 			dostav = dostav.toFixed(0);
@@ -400,7 +400,7 @@ window.confirm(msg);
 			result.innerHTML = price + ' руб.';
 		}
 		
-		if (parseInt(op1.value)>5000 & parseInt(op1.value)<7500) {
+		if (parseInt(op1.value)>=5000 & parseInt(op1.value)<7500) {
 			price = parseInt(op1.value)*1.17;
 			dostav = price - parseInt(op1.value);
 			dostav = dostav.toFixed(0);
@@ -409,7 +409,7 @@ window.confirm(msg);
 			result.innerHTML = price + ' руб.';
 		}
 
-		if (parseInt(op1.value)>7500 & parseInt(op1.value)<10000) {
+		if (parseInt(op1.value)>=7500 & parseInt(op1.value)<10000) {
 			price = parseInt(op1.value)*1.16;
 			dostav = price - parseInt(op1.value);
 			dostav = dostav.toFixed(0);
@@ -418,7 +418,7 @@ window.confirm(msg);
 			result.innerHTML = price + ' руб.';
 		}
 
-		if (parseInt(op1.value)>10000 & parseInt(op1.value)<15000) {
+		if (parseInt(op1.value)>=10000 & parseInt(op1.value)<15000) {
 			price = parseInt(op1.value)*1.14;
 			dostav = price - parseInt(op1.value);
 			dostav = dostav.toFixed(0);
@@ -427,7 +427,7 @@ window.confirm(msg);
 			result.innerHTML = price + ' руб.';
 		}
 
-		if (parseInt(op1.value)>15000 & parseInt(op1.value)<25000) {
+		if (parseInt(op1.value)>=15000 & parseInt(op1.value)<25000) {
 			price = parseInt(op1.value)*1.12;
 			dostav = price - parseInt(op1.value);
 			dostav = dostav.toFixed(0);
@@ -436,7 +436,7 @@ window.confirm(msg);
 			result.innerHTML = price + ' руб.';
 		}
 
-		if (parseInt(op1.value)>25000 & parseInt(op1.value)<40000) {
+		if (parseInt(op1.value)>=25000 & parseInt(op1.value)<40000) {
 			price = parseInt(op1.value)*1.10;
 			dostav = price - parseInt(op1.value);
 			dostav = dostav.toFixed(0);
@@ -445,7 +445,7 @@ window.confirm(msg);
 			result.innerHTML = price + ' руб.';
 		}
 
-		if (parseInt(op1.value)>40000 & parseInt(op1.value)<60000) {
+		if (parseInt(op1.value)>=40000 & parseInt(op1.value)<60000) {
 			price = parseInt(op1.value)*1.08;
 			dostav = price - parseInt(op1.value);
 			dostav = dostav.toFixed(0);
@@ -454,7 +454,7 @@ window.confirm(msg);
 			result.innerHTML = price + ' руб.';
 		}
 
-		if (parseInt(op1.value)>60000 & parseInt(op1.value)<100000) {
+		if (parseInt(op1.value)>=60000 & parseInt(op1.value)<100000) {
 			price = parseInt(op1.value)*1.65;
 			dostav = price - parseInt(op1.value);
 			dostav = dostav.toFixed(0);
