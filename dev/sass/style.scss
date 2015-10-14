@@ -145,11 +145,12 @@ body {
 #result {
 	font-size: 24px;
 	font-weight: 100;
+	margin-left: 5px
 }
 #procent {
 	font-size: 22px;
 	font-weight: 100;
-	margin-left: 23px;
+	margin-left: 28px;
 }
 .calc-form-row {
 	padding: 12px 0;
@@ -276,6 +277,21 @@ button:focus{
 		span {
 			color: #FEA900;
 
+		}
+	}
+}
+.catalog-ikea {
+	padding: 20px;
+	text-align: center;
+	background-color: $blue;
+	color: #fff;
+	text-transform: uppercase;
+
+	.h2 {
+		line-height: 40px;
+		span {
+			color: $gold;
+			font-weight: 700;
 		}
 	}
 }
