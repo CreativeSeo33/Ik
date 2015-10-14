@@ -7351,17 +7351,23 @@ body {
     font-size: 32px;
     font-weight: 300;
     color: #fff; }
+  /* line 113, ../sass/style.scss */
+  .big-image h1 {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: inherit;
+    margin: 0; }
 
-/* line 114, ../sass/style.scss */
+/* line 120, ../sass/style.scss */
 a.site-ikea {
   color: #006CB5 !important;
   text-transform: uppercase;
   text-decoration: underline; }
-  /* line 118, ../sass/style.scss */
+  /* line 124, ../sass/style.scss */
   a.site-ikea:hover {
     text-decoration: none; }
 
-/* line 122, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 .data-poezdki {
   position: absolute;
   top: 0;
@@ -7372,47 +7378,47 @@ a.site-ikea {
   text-align: center;
   font-size: 18px; }
 
-/* line 132, ../sass/style.scss */
+/* line 138, ../sass/style.scss */
 .date {
   font-size: 48px;
   font-weight: 700;
   color: #FFD800; }
 
-/* line 137, ../sass/style.scss */
+/* line 143, ../sass/style.scss */
 .calc {
   padding: 0 25px 35px 0;
   font-weight: 300;
   position: absolute;
   top: 50%;
   transform: translate(0, -50%); }
-  /* line 141, ../sass/style.scss */
+  /* line 147, ../sass/style.scss */
   .calc .h2 {
     font-size: 24px;
     font-weight: 300;
     color: #006CB5; }
-  /* line 146, ../sass/style.scss */
+  /* line 152, ../sass/style.scss */
   .calc p {
     font-size: 12px;
     padding-right: 10px;
     margin: 0; }
 
-/* line 152, ../sass/style.scss */
+/* line 158, ../sass/style.scss */
 #result {
   font-size: 24px;
   font-weight: 100;
   margin-left: 5px; }
 
-/* line 157, ../sass/style.scss */
+/* line 163, ../sass/style.scss */
 #procent {
   font-size: 22px;
   font-weight: 100;
   margin-left: 28px; }
 
-/* line 162, ../sass/style.scss */
+/* line 168, ../sass/style.scss */
 .calc-form-row {
   padding: 12px 0; }
 
-/* line 165, ../sass/style.scss */
+/* line 171, ../sass/style.scss */
 .calc-price {
   min-height: 40px;
   border-radius: 18px;
@@ -7421,15 +7427,15 @@ a.site-ikea {
   box-sizing: border-box;
   margin-left: 5px;
   padding-left: 12px; }
-  /* line 173, ../sass/style.scss */
+  /* line 179, ../sass/style.scss */
   .calc-price:focus {
     border-color: #FFD800; }
 
-/* line 177, ../sass/style.scss */
+/* line 183, ../sass/style.scss */
 .calc-form {
   margin-top: 2px; }
 
-/* line 183, ../sass/style.scss */
+/* line 189, ../sass/style.scss */
 button {
   display: block;
   position: relative;
@@ -7446,15 +7452,15 @@ button {
   transition: all 0.3s ease-in;
   margin-left: 30%; }
 
-/* line 199, ../sass/style.scss */
+/* line 205, ../sass/style.scss */
 button:hover {
   color: #333333; }
 
-/* line 202, ../sass/style.scss */
+/* line 208, ../sass/style.scss */
 button:focus {
   color: #333333; }
 
-/* line 205, ../sass/style.scss */
+/* line 211, ../sass/style.scss */
 .blob {
   z-index: -1;
   position: absolute;
@@ -7469,7 +7475,7 @@ button:focus {
   border-style: solid;
   transition: border-width 0.7s ease-in-out,margin-left 0.7s ease-in-out,margin-top 0.7s ease-in-out; }
 
-/* line 219, ../sass/style.scss */
+/* line 225, ../sass/style.scss */
 .expand {
   border-color: #fbe151;
   border-width: 300px;
@@ -7478,169 +7484,169 @@ button:focus {
   margin-left: -300px;
   margin-top: -300px; }
 
-/* line 229, ../sass/style.scss */
+/* line 235, ../sass/style.scss */
 .top-social {
   position: absolute;
   bottom: 5%;
   right: 15%;
   z-index: 100; }
-  /* line 234, ../sass/style.scss */
+  /* line 240, ../sass/style.scss */
   .top-social a {
     color: #333; }
-  /* line 237, ../sass/style.scss */
+  /* line 243, ../sass/style.scss */
   .top-social i {
     padding: 4px;
     font-size: 18px;
     color: #7D7775;
     transition: all 0.25s ease-out 0s; }
-  /* line 243, ../sass/style.scss */
+  /* line 249, ../sass/style.scss */
   .top-social .fa-vk:hover {
     color: #507296; }
-  /* line 246, ../sass/style.scss */
+  /* line 252, ../sass/style.scss */
   .top-social .fa-odnoklassniki:hover {
     color: #F58220; }
-  /* line 249, ../sass/style.scss */
+  /* line 255, ../sass/style.scss */
   .top-social .fa-google-plus:hover {
     color: #F63E28; }
 
-/* line 253, ../sass/style.scss */
+/* line 259, ../sass/style.scss */
 .st-zak {
   text-align: center; }
-  /* line 255, ../sass/style.scss */
+  /* line 261, ../sass/style.scss */
   .st-zak_h3 {
     font-size: 16px; }
-  /* line 258, ../sass/style.scss */
+  /* line 264, ../sass/style.scss */
   .st-zak_cena {
     font-size: 18px;
     font-weight: 700; }
 
-/* line 263, ../sass/style.scss */
+/* line 269, ../sass/style.scss */
 .vsego {
   text-align: center; }
-  /* line 265, ../sass/style.scss */
+  /* line 271, ../sass/style.scss */
   .vsego_h3 {
     font-size: 22px; }
-  /* line 268, ../sass/style.scss */
+  /* line 274, ../sass/style.scss */
   .vsego .price {
     font-size: 38px;
     font-weight: 700;
     color: #006CB5; }
 
-/* line 275, ../sass/style.scss */
+/* line 281, ../sass/style.scss */
 .chekout {
   padding: 20px;
   text-align: center;
   background-color: #FFD046;
   color: #fff;
   text-transform: uppercase; }
-  /* line 282, ../sass/style.scss */
+  /* line 288, ../sass/style.scss */
   .chekout .h2 {
     line-height: 40px; }
-    /* line 284, ../sass/style.scss */
+    /* line 290, ../sass/style.scss */
     .chekout .h2 span {
       color: #FEA900; }
 
-/* line 290, ../sass/style.scss */
+/* line 296, ../sass/style.scss */
 .catalog-ikea {
   padding: 20px;
   text-align: center;
   background-color: #006CB5;
   color: #fff;
   text-transform: uppercase; }
-  /* line 297, ../sass/style.scss */
+  /* line 303, ../sass/style.scss */
   .catalog-ikea .h2 {
     line-height: 40px; }
-    /* line 299, ../sass/style.scss */
+    /* line 305, ../sass/style.scss */
     .catalog-ikea .h2 span {
       color: #FFD800;
       font-weight: 700; }
 
-/* line 305, ../sass/style.scss */
+/* line 311, ../sass/style.scss */
 .block {
   padding: 40px 60px; }
-  /* line 307, ../sass/style.scss */
+  /* line 313, ../sass/style.scss */
   .block p {
     font-weight: 300;
     padding-top: 30px;
     font-size: 16px; }
 
-/* line 313, ../sass/style.scss */
+/* line 319, ../sass/style.scss */
 .sposob1 {
   background-color: #F8F8F8; }
 
-/* line 316, ../sass/style.scss */
+/* line 322, ../sass/style.scss */
 .sposob2 {
   background-color: #F4F5F4; }
 
-/* line 319, ../sass/style.scss */
+/* line 325, ../sass/style.scss */
 .sposob3 {
   background-color: #fff; }
 
-/* line 322, ../sass/style.scss */
+/* line 328, ../sass/style.scss */
 footer {
   background-color: #006CB5;
   color: #fff;
   padding: 30px; }
 
-/* line 330, ../sass/style.scss */
+/* line 336, ../sass/style.scss */
 .footer-phone a {
   color: #fff; }
 
-/* line 334, ../sass/style.scss */
+/* line 340, ../sass/style.scss */
 .social {
   float: right; }
-  /* line 336, ../sass/style.scss */
+  /* line 342, ../sass/style.scss */
   .social a {
     color: #fff; }
-    /* line 338, ../sass/style.scss */
+    /* line 344, ../sass/style.scss */
     .social a:hover, .social a:focus, .social a:active {
       text-decoration: none; }
-  /* line 342, ../sass/style.scss */
+  /* line 348, ../sass/style.scss */
   .social .fa-vk {
     color: #507296; }
-  /* line 345, ../sass/style.scss */
+  /* line 351, ../sass/style.scss */
   .social .fa-odnoklassniki {
     color: #F58220; }
-  /* line 348, ../sass/style.scss */
+  /* line 354, ../sass/style.scss */
   .social .fa-google-plus {
     color: #F63E28; }
-  /* line 351, ../sass/style.scss */
+  /* line 357, ../sass/style.scss */
   .social .fa-instagram {
     color: #695049; }
 
-/* line 359, ../sass/style.scss */
+/* line 365, ../sass/style.scss */
 .catalog-block {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
   width: 100%; }
-  /* line 363, ../sass/style.scss */
+  /* line 369, ../sass/style.scss */
   .catalog-block-margin {
     padding: 0; }
-  /* line 367, ../sass/style.scss */
+  /* line 373, ../sass/style.scss */
   .catalog-block-h2 {
     font-size: 22px;
     color: #fff;
     padding: 5px 0 20px 0;
     font-weight: 100; }
-  /* line 373, ../sass/style.scss */
+  /* line 379, ../sass/style.scss */
   .catalog-block ul {
     min-height: 190px; }
-  /* line 376, ../sass/style.scss */
+  /* line 382, ../sass/style.scss */
   .catalog-block ul li {
     font-size: 16px;
     list-style-type: none; }
-    /* line 380, ../sass/style.scss */
+    /* line 386, ../sass/style.scss */
     .catalog-block ul li a {
       color: #fff; }
-/* line 386, ../sass/style.scss */
+/* line 392, ../sass/style.scss */
 .catalog .servirovka {
   background: url(../img/servirovka.jpg) no-repeat;
   background-size: 100%; }
-/* line 391, ../sass/style.scss */
+/* line 397, ../sass/style.scss */
 .catalog .kuh {
   background: url(../img/kuh.jpg) no-repeat;
   background-size: cover; }
-/* line 395, ../sass/style.scss */
+/* line 401, ../sass/style.scss */
 .catalog .osv {
   background: url(../img/osv.jpg) no-repeat;
   background-size: cover; }
