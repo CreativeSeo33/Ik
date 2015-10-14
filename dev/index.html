@@ -46,16 +46,16 @@
 					<div class="h2">Стоимость доставки</div>
 					<p>Введите сумму вашего заказа, чтобы узнать стоимость доставки</p>
 					<div class="calc-form calc-form-row">
-						Сумма заказа: <input class="calc-price" type="text">
+						Сумма заказа: <input id="stoimostzakaza" class="calc-price" type="text">
 					</div>
 					<div class="calc-form-row">
-						<button href="#">Расчет</button>
+						<button href="#" onclick="calculateText();" name="form[rasschitat]" id="rasschitat">Расчет</button>
 					</div>
 					<div class="calc-form-row">
-						За доставку:
+						За доставку: <span id="procent"></span>
 					</div>
 					<div class="calc-form-row">
-						Сумма к оплате:
+						Сумма к оплате: <span id="result">0</span>
 					</div>
 				</div>	
 				<div class="top-social">
@@ -315,6 +315,40 @@
 
 
 	</script>
+
+	 <script type="text/javascript">
+		function calculateText()
+		{
+		var op1=document.getElementById('stoimostzakaza');
+		var procent=document.getElementById('procent');
+		var result = document.getElementById("result");
+		var price = 0;
+
+		if(op1.value=="" || op1.value!=parseFloat(op1.value)||op1.value<100||op1.value>200000) {alert('Ошибочно введенные данные. Стоимость заказа должна состоять только из цифр без пробелов. В качестве разделителя дробного числа используйте . (точку). Максимальная стоимость заказа - 200000 руб., Минимальная стоимость заказа - 100 руб ');
+window.confirm(msg);
+}
+		if (parseInt(op1.value)>0 & parseInt(op1.value)<300) {
+			price = parseInt(op1.value)*1.31;
+			procent.innerHTML = 31 + '%';
+			result.innerHTML = price + 'руб.';
+		}
+
+		if (parseInt(op1.value)>300 & parseInt(op1.value)<500) {
+			price = parseInt(op1.value)*1.29;
+			procent.innerHTML = 29 + ' %';
+			result.innerHTML = price + ' руб.';
+		}
+
+		if (parseInt(op1.value)>500 & parseInt(op1.value)<1000) {
+			price = parseInt(op1.value)*1.26;
+			procent.innerHTML = 26 + ' %';
+			result.innerHTML = price + ' руб.';
+		}
+
+		
+	}
+
+     </script>
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries --> 
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// --> 
