@@ -94,7 +94,6 @@ body {
 	z-index: 1;
 	background: url(../img/33.png) 100% 100% no-repeat;
 	background-size: contain;
-	transform: rotateZ(10deg)
 }
 .scene {
 	overflow: hidden;
@@ -110,6 +109,14 @@ body {
 		font-size: 32px;
 		font-weight: 300;
 		color: #fff;
+	}
+}
+a.site-ikea {
+	color: $blue !important;
+	text-transform: uppercase;
+	text-decoration: underline;
+	&:hover {
+		text-decoration: none;
 	}
 }
 .data-poezdki {
