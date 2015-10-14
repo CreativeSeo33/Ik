@@ -345,7 +345,59 @@ window.confirm(msg);
 			result.innerHTML = price + ' руб.';
 		}
 
+		if (parseInt(op1.value)>1000 & parseInt(op1.value)<1500) {
+			price = parseInt(op1.value)*1.24;
+			procent.innerHTML = 24 + ' %';
+			result.innerHTML = price + ' руб.';
+		}
+
+		if (parseInt(op1.value)>1500 & parseInt(op1.value)<2000) {
+			price = parseInt(op1.value)*1.23;
+			procent.innerHTML = 23 + ' %';
+			result.innerHTML = price + ' руб.';
+		}
+
+		if (parseInt(op1.value)>2000 & parseInt(op1.value)<3000) {
+			price = parseInt(op1.value)*1.21;
+			procent.innerHTML = 21 + ' %';
+			result.innerHTML = price + ' руб.';
+		}
+
+		if (parseInt(op1.value)>3000 & parseInt(op1.value)<4000) {
+			price = parseInt(op1.value)*1.20;
+			procent.innerHTML = 20 + ' %';
+			result.innerHTML = price + ' руб.';
+		}
+
+		if (parseInt(op1.value)>4000 & parseInt(op1.value)<1900) {
+			price = parseInt(op1.value)*1.23;
+			procent.innerHTML = 23 + ' %';
+			result.innerHTML = price + ' руб.';
+		}
 		
+		if (parseInt(op1.value)>5000 & parseInt(op1.value)<7500) {
+			price = parseInt(op1.value)*1.17;
+			procent.innerHTML = 17 + ' %';
+			result.innerHTML = price + ' руб.';
+		}
+
+		if (parseInt(op1.value)>7500 & parseInt(op1.value)<10000) {
+			price = parseInt(op1.value)*1.16;
+			procent.innerHTML = 16 + ' %';
+			result.innerHTML = price + ' руб.';
+		}
+
+		if (parseInt(op1.value)>10000 & parseInt(op1.value)<15000) {
+			price = parseInt(op1.value)*1.14;
+			procent.innerHTML = 14 + ' %';
+			result.innerHTML = price + ' руб.';
+		}
+
+		if (parseInt(op1.value)>15000 & parseInt(op1.value)<25000) {
+			price = parseInt(op1.value)*1.12;
+			procent.innerHTML = 12 + ' %';
+			result.innerHTML = price + ' руб.';
+		}
 	}
 
      </script>
