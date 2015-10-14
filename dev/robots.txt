@@ -1,0 +1,7 @@
+User-agent: *
+Sitemap: http://www.pokupki33.ru/sitemap.xml
+
+User-agent: Yandex
+Host: www.pokupki33.ru
+Sitemap: http://www.pokupki33.ru/sitemap.xml
+
