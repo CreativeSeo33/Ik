@@ -51,6 +51,9 @@ body {
 	font-weight: 700;
 
 }
+.header-mail {
+	font-size:14px;
+}
 .phone {
 	float: right;
 	//text-align: center;
@@ -248,6 +251,7 @@ button:focus{
 	bottom: 5%;
 	right: 15%;
 	z-index:100;
+	font-weight:700;
 	a {
 		color: #333;
 	}
@@ -419,5 +423,7 @@ footer {
 		background-size: cover;	
 	}
 }
-
+.site-ikea-bottom {
+	color: $gold;
+}
 // CATALOG

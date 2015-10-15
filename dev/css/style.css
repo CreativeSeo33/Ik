@@ -5736,6 +5736,10 @@ body {
   font-weight: 700; }
 
 /* line 54, ../sass/style.scss */
+.header-mail {
+  font-size: 14px; }
+
+/* line 57, ../sass/style.scss */
 .phone {
   float: right;
   padding: 18px 30px;
@@ -5745,18 +5749,18 @@ body {
   line-height: 24px;
   font-weight: 300;
   z-index: 100; }
-  /* line 65, ../sass/style.scss */
+  /* line 68, ../sass/style.scss */
   .phone span {
     font-size: 22px;
     font-weight: 300;
     color: #006CB5; }
-  /* line 71, ../sass/style.scss */
+  /* line 74, ../sass/style.scss */
   .phone .time {
     color: #333333;
     font-size: 14px;
     vertical-align: top; }
 
-/* line 78, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 .bg {
   background: url(../img/11.jpg) no-repeat;
   background-size: cover;
@@ -5765,7 +5769,7 @@ body {
   overflow: hidden;
   position: relative; }
 
-/* line 86, ../sass/style.scss */
+/* line 89, ../sass/style.scss */
 .im {
   position: absolute;
   top: 0;
@@ -5777,38 +5781,38 @@ body {
   background: url(../img/33.png) 100% 100% no-repeat;
   background-size: contain; }
 
-/* line 98, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 .scene {
   overflow: hidden; }
 
-/* line 102, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 .big-image {
   height: 486px;
   position: relative; }
-  /* line 106, ../sass/style.scss */
+  /* line 109, ../sass/style.scss */
   .big-image_text {
     padding-top: 10%;
     padding-left: 5%;
     font-size: 32px;
     font-weight: 300;
     color: #fff; }
-  /* line 113, ../sass/style.scss */
+  /* line 116, ../sass/style.scss */
   .big-image h1 {
     font-weight: 300;
     font-size: 32px;
     line-height: inherit;
     margin: 0; }
 
-/* line 120, ../sass/style.scss */
+/* line 123, ../sass/style.scss */
 a.site-ikea {
   color: #006CB5 !important;
   text-transform: uppercase;
   text-decoration: underline; }
-  /* line 124, ../sass/style.scss */
+  /* line 127, ../sass/style.scss */
   a.site-ikea:hover {
     text-decoration: none; }
 
-/* line 128, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 .data-poezdki {
   position: absolute;
   top: 0;
@@ -5819,47 +5823,47 @@ a.site-ikea {
   text-align: center;
   font-size: 18px; }
 
-/* line 138, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 .date {
   font-size: 48px;
   font-weight: 700;
   color: #FFD800; }
 
-/* line 143, ../sass/style.scss */
+/* line 146, ../sass/style.scss */
 .calc {
   padding: 0 25px 35px 0;
   font-weight: 300;
   position: absolute;
   top: 50%;
   transform: translate(0, -50%); }
-  /* line 147, ../sass/style.scss */
+  /* line 150, ../sass/style.scss */
   .calc .h2 {
     font-size: 24px;
     font-weight: 300;
     color: #006CB5; }
-  /* line 152, ../sass/style.scss */
+  /* line 155, ../sass/style.scss */
   .calc p {
     font-size: 12px;
     padding-right: 10px;
     margin: 0; }
 
-/* line 158, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
 #result {
   font-size: 24px;
   font-weight: 100;
   margin-left: 5px; }
 
-/* line 163, ../sass/style.scss */
+/* line 166, ../sass/style.scss */
 #procent {
   font-size: 22px;
   font-weight: 100;
   margin-left: 28px; }
 
-/* line 168, ../sass/style.scss */
+/* line 171, ../sass/style.scss */
 .calc-form-row {
   padding: 12px 0; }
 
-/* line 171, ../sass/style.scss */
+/* line 174, ../sass/style.scss */
 .calc-price {
   min-height: 40px;
   border-radius: 18px;
@@ -5868,29 +5872,29 @@ a.site-ikea {
   box-sizing: border-box;
   margin-left: 5px;
   padding-left: 12px; }
-  /* line 179, ../sass/style.scss */
+  /* line 182, ../sass/style.scss */
   .calc-price:focus {
     border-color: #FFD800; }
 
-/* line 183, ../sass/style.scss */
+/* line 186, ../sass/style.scss */
 .calc-form {
   margin-top: 2px; }
 
-/* line 187, ../sass/style.scss */
+/* line 190, ../sass/style.scss */
 .step {
   font-size: 42px;
   color: #006CB5;
   font-weight: 700; }
 
-/* line 192, ../sass/style.scss */
+/* line 195, ../sass/style.scss */
 .sposob-zakaz {
   margin-top: 20%; }
 
-/* line 195, ../sass/style.scss */
+/* line 198, ../sass/style.scss */
 .poryadok {
   padding: 20px; }
 
-/* line 200, ../sass/style.scss */
+/* line 203, ../sass/style.scss */
 button {
   display: block;
   position: relative;
@@ -5907,15 +5911,15 @@ button {
   transition: all 0.3s ease-in;
   margin-left: 30%; }
 
-/* line 216, ../sass/style.scss */
+/* line 219, ../sass/style.scss */
 button:hover {
   color: #333333; }
 
-/* line 219, ../sass/style.scss */
+/* line 222, ../sass/style.scss */
 button:focus {
   color: #333333; }
 
-/* line 222, ../sass/style.scss */
+/* line 225, ../sass/style.scss */
 .blob {
   z-index: -1;
   position: absolute;
@@ -5930,7 +5934,7 @@ button:focus {
   border-style: solid;
   transition: border-width 0.7s ease-in-out,margin-left 0.7s ease-in-out,margin-top 0.7s ease-in-out; }
 
-/* line 236, ../sass/style.scss */
+/* line 239, ../sass/style.scss */
 .expand {
   border-color: #fbe151;
   border-width: 300px;
@@ -5939,174 +5943,179 @@ button:focus {
   margin-left: -300px;
   margin-top: -300px; }
 
-/* line 246, ../sass/style.scss */
+/* line 249, ../sass/style.scss */
 .top-social {
   position: absolute;
   bottom: 5%;
   right: 15%;
-  z-index: 100; }
-  /* line 251, ../sass/style.scss */
+  z-index: 100;
+  font-weight: 700; }
+  /* line 255, ../sass/style.scss */
   .top-social a {
     color: #333; }
-  /* line 254, ../sass/style.scss */
+  /* line 258, ../sass/style.scss */
   .top-social i {
     padding: 4px;
     font-size: 18px;
     color: #7D7775;
     transition: all 0.25s ease-out 0s; }
-  /* line 260, ../sass/style.scss */
+  /* line 264, ../sass/style.scss */
   .top-social .fa-vk:hover {
     color: #507296; }
-  /* line 263, ../sass/style.scss */
+  /* line 267, ../sass/style.scss */
   .top-social .fa-odnoklassniki:hover {
     color: #F58220; }
-  /* line 266, ../sass/style.scss */
+  /* line 270, ../sass/style.scss */
   .top-social .fa-google-plus:hover {
     color: #F63E28; }
 
-/* line 270, ../sass/style.scss */
+/* line 274, ../sass/style.scss */
 .st-zak {
   text-align: center; }
-  /* line 272, ../sass/style.scss */
+  /* line 276, ../sass/style.scss */
   .st-zak_h3 {
     font-size: 16px; }
-  /* line 275, ../sass/style.scss */
+  /* line 279, ../sass/style.scss */
   .st-zak_cena {
     font-size: 18px;
     font-weight: 700; }
 
-/* line 280, ../sass/style.scss */
+/* line 284, ../sass/style.scss */
 .vsego {
   text-align: center; }
-  /* line 282, ../sass/style.scss */
+  /* line 286, ../sass/style.scss */
   .vsego_h3 {
     font-size: 22px; }
-  /* line 285, ../sass/style.scss */
+  /* line 289, ../sass/style.scss */
   .vsego .price {
     font-size: 38px;
     font-weight: 700;
     color: #006CB5; }
 
-/* line 292, ../sass/style.scss */
+/* line 296, ../sass/style.scss */
 .chekout {
   padding: 20px;
   text-align: center;
   background-color: #FFD046;
   color: #fff;
   text-transform: uppercase; }
-  /* line 299, ../sass/style.scss */
+  /* line 303, ../sass/style.scss */
   .chekout .h2 {
     line-height: 40px; }
-    /* line 301, ../sass/style.scss */
+    /* line 305, ../sass/style.scss */
     .chekout .h2 span {
       color: #FEA900; }
 
-/* line 307, ../sass/style.scss */
+/* line 311, ../sass/style.scss */
 .catalog-ikea {
   padding: 20px;
   text-align: center;
   background-color: #006CB5;
   color: #fff;
   text-transform: uppercase; }
-  /* line 314, ../sass/style.scss */
+  /* line 318, ../sass/style.scss */
   .catalog-ikea .h2 {
     line-height: 40px; }
-    /* line 316, ../sass/style.scss */
+    /* line 320, ../sass/style.scss */
     .catalog-ikea .h2 span {
       color: #FFD800;
       font-weight: 700; }
 
-/* line 322, ../sass/style.scss */
+/* line 326, ../sass/style.scss */
 .block {
   padding: 40px 60px; }
-  /* line 324, ../sass/style.scss */
+  /* line 328, ../sass/style.scss */
   .block p {
     font-weight: 300;
     padding-top: 30px;
     font-size: 16px; }
 
-/* line 330, ../sass/style.scss */
+/* line 334, ../sass/style.scss */
 .sposob1 {
   background-color: #F8F8F8; }
 
-/* line 333, ../sass/style.scss */
+/* line 337, ../sass/style.scss */
 .sposob2 {
   background-color: #F4F5F4; }
 
-/* line 336, ../sass/style.scss */
+/* line 340, ../sass/style.scss */
 .sposob3 {
   background-color: #fff;
   position: relative; }
-  /* line 339, ../sass/style.scss */
+  /* line 343, ../sass/style.scss */
   .sposob3 .h2 {
     text-align: center;
     margin-top: 0; }
 
-/* line 344, ../sass/style.scss */
+/* line 348, ../sass/style.scss */
 footer {
   background-color: #006CB5;
   color: #fff;
   padding: 30px; }
 
-/* line 352, ../sass/style.scss */
+/* line 356, ../sass/style.scss */
 .footer-phone a {
   color: #fff; }
 
-/* line 356, ../sass/style.scss */
+/* line 360, ../sass/style.scss */
 .social {
   float: right; }
-  /* line 358, ../sass/style.scss */
+  /* line 362, ../sass/style.scss */
   .social a {
     color: #fff; }
-    /* line 360, ../sass/style.scss */
+    /* line 364, ../sass/style.scss */
     .social a:hover, .social a:focus, .social a:active {
       text-decoration: none; }
-  /* line 364, ../sass/style.scss */
+  /* line 368, ../sass/style.scss */
   .social .fa-vk {
     color: #507296; }
-  /* line 367, ../sass/style.scss */
+  /* line 371, ../sass/style.scss */
   .social .fa-odnoklassniki {
     color: #F58220; }
-  /* line 370, ../sass/style.scss */
+  /* line 374, ../sass/style.scss */
   .social .fa-google-plus {
     color: #F63E28; }
-  /* line 373, ../sass/style.scss */
+  /* line 377, ../sass/style.scss */
   .social .fa-instagram {
     color: #695049; }
 
-/* line 381, ../sass/style.scss */
+/* line 385, ../sass/style.scss */
 .catalog-block {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
   width: 100%; }
-  /* line 385, ../sass/style.scss */
+  /* line 389, ../sass/style.scss */
   .catalog-block-margin {
     padding: 0; }
-  /* line 389, ../sass/style.scss */
+  /* line 393, ../sass/style.scss */
   .catalog-block-h2 {
     font-size: 22px;
     color: #fff;
     padding: 5px 0 20px 0;
     font-weight: 100; }
-  /* line 395, ../sass/style.scss */
+  /* line 399, ../sass/style.scss */
   .catalog-block ul {
     min-height: 190px; }
-  /* line 398, ../sass/style.scss */
+  /* line 402, ../sass/style.scss */
   .catalog-block ul li {
     font-size: 16px;
     list-style-type: none; }
-    /* line 402, ../sass/style.scss */
+    /* line 406, ../sass/style.scss */
     .catalog-block ul li a {
       color: #fff; }
-/* line 408, ../sass/style.scss */
+/* line 412, ../sass/style.scss */
 .catalog .servirovka {
   background: url(../img/servirovka.jpg) no-repeat;
   background-size: 100%; }
-/* line 413, ../sass/style.scss */
+/* line 417, ../sass/style.scss */
 .catalog .kuh {
   background: url(../img/kuh.jpg) no-repeat;
   background-size: cover; }
-/* line 417, ../sass/style.scss */
+/* line 421, ../sass/style.scss */
 .catalog .osv {
   background: url(../img/osv.jpg) no-repeat;
   background-size: cover; }
+
+/* line 426, ../sass/style.scss */
+.site-ikea-bottom {
+  color: #FFD800; }
